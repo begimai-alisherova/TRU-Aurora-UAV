@@ -4,10 +4,7 @@ Sagebrush Distribution Model for Aurora UAV
 ## Codes for South Thompson Area
 
 ### Data Preprocessing codes
-- displayCsv.ipynb
 
-This file was used to display the summary for csv files and to check whether 2 files are similar or have any mismatched records.
-  
 - pullingInfoFromCsv.ipynb
 
 This script processes large geospatial TIFF files to extract valid pixel values along with their geographic coordinates. Using rasterio, it reads TIFF data in memory-efficient chunks, replaces nodata values with NaN, and writes the latitude, longitude, and pixel values for non-NaN pixels to a CSV file. Designed for large datasets, it ensures efficient processing and outputs a CSV with valid geospatial data.
@@ -37,3 +34,11 @@ Final version of our pipeline that uses Random Forest to train and test on the g
 - alternativePipeline.ipynb
 
 This script implements a semi-supervised learning approach using labeled and unlabeled geospatial data. A Random Forest classifier is first trained on labeled data, evaluated, and then used to generate pseudo-labels for the unlabeled dataset. High-confidence pseudo-labels are identified and combined with the labeled data to retrain the model, improving its performance. The final model is evaluated on the labeled test set, and predictions are generated for the remaining unlabeled data. This method extends the training dataset using confident predictions, enhancing model accuracy with limited labeled data.
+
+
+### Other Handy codes
+
+- displayCsv.ipynb
+
+This file was used to display the summary for csv files and to check whether 2 files are similar or have any mismatched records.
+
