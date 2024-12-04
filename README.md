@@ -1,7 +1,7 @@
 # TRU-Aurora-UAV
 Sagebrush Distribution Model for Aurora UAV
 
-** Codes for South Thompson Area: **
+**Codes for South Thompson Area:**
 1. checkClosestPixels.ipynb !!!RUN ON CAMPUS AND UPLOAD
 This script processes large geospatial dataset to analyze missing values using a breadth-first search (BFS) approach. It calculates the distance to the nearest valid pixel for each missing value and generates a summary of the distance distribution. Using chunk-based processing, it outputs a distance summary for missing values (e.g., how many missing points are 1, 2, or more steps away).
 2. checkCombinedGround.ipynb
