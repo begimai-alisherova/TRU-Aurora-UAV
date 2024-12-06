@@ -1,9 +1,9 @@
 # TRU-Aurora-UAV
 Sagebrush Distribution Model for Aurora UAV
 
-## Codes for South Thompson Area
+This repository contains the code and methodologies developed by a team of four TRU students to create a machine learning-based predictive model for sagebrush presence or absence, tailored for Aurora UAV.
 
-### Data Preprocessing codes
+### Summary of Our Codes:
 
 - pullingInfoFromCsv.ipynb
 
