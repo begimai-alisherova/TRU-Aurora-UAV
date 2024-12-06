@@ -37,7 +37,5 @@ This script checks ground truth coordinates against a combined CSV file containi
 
 Final version of our pipeline. The code implements a machine learning pipeline using a Random Forest classifier for geospatial data. It begins by merging a ground truth dataset with a larger dataset on Latitude and Longitude. The merged data is preprocessed by separating features and target labels, scaling the features, and splitting the data into training and testing sets. The Random Forest model is trained on the training data, and its accuracy is evaluated on the test set. Feature importance is calculated and ranked to identify the most influential features. Further, the pipeline includes feature selection using statistical methods (e.g., ANOVA F-value) to optimize the input features. The model is retrained using the selected features, and additional features are incorporated iteratively to improve accuracy. Then, hyperparameter tuning with GridSearchCV is used for optimization. The tuned model is evaluated on metrics such as accuracy, precision, recall, and F1-score, with a classification report providing detailed performance insights.
 
-
-
-
-If there are any questions regarding any of these codes, please feel free to contact us.
+<br/> <br/>
+_If there are any questions regarding any of these codes, please feel free to contact us._
